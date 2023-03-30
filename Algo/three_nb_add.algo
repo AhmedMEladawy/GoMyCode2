@@ -1,0 +1,11 @@
+ALGORITHM three_nb_add
+VAR
+    num1, num2, num3: integer;
+    sum: integer:0;
+BEGIN
+    read(num1)
+    read(num2)
+    read(num3)
+    sume= num1+num2+num3;
+    write(sum)
+END

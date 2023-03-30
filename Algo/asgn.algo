@@ -1,0 +1,17 @@
+ALGORITHM checkpoint
+VAR
+    count : INTEGER := 0;
+    length : INTEGER;
+    vowels : INTEGER;
+    words : INTEGER;
+BEGIN
+input_sentence = read_input()
+    // For char in input_sentence, add 1 to the length
+    For char in input_sentence;
+        length+=1
+        if char in "aeiouAEIOU":
+        vowels+=1
+        if char=" "
+        words+=1
+    write(count)
+END
