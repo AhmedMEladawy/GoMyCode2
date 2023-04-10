@@ -10,3 +10,11 @@ nav {
 .Cont{
     color:aqua
 }
+
+.flexy {
+    display: flex;
+    gap: 10px;
+  gap: 10px 20px;
+  row-gap: 10px;
+  column-gap: 20px;
+}

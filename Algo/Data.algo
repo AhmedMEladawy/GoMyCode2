@@ -1,0 +1,14 @@
+ALGORITHM distinct_elements
+VAR
+    tab: array_name : ARRAY_OF INTEGER[9];
+    i: INTEGER;
+    unique: INTEGER;
+BEGIN
+    set1: array_1 :=(3,1,7,9)
+    set2: array_2 :=(2,4,1,9,3)
+    tab:= set1 .concat(set2) 
+    sum: INTEGER;
+    For i From 0 to tab.length-1
+    if unique.indexOf(tab(i)=-1);
+    unique.push(tab(i));
+END
