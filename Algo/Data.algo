@@ -2,13 +2,19 @@ ALGORITHM distinct_elements
 VAR
     tab: array_name : ARRAY_OF INTEGER[9];
     i: INTEGER;
-    unique: INTEGER;
+    unique: array_name : ARRAY_OF INTEGER;
+    sum: INTEGER;
+    sum=0
 BEGIN
     set1: array_1 :=(3,1,7,9)
     set2: array_2 :=(2,4,1,9,3)
-    tab:= set1 .concat(set2) 
-    sum: INTEGER;
-    For i From 0 to tab.length-1
-    if unique.indexOf(tab(i)=-1);
-    unique.push(tab(i));
+    For i From 0 to set1.length-1
+    if(!set2.includes(set1[i]))    
+    unique.push(set1(i));
+    for i From 0 to set2.length-1
+    if(!set1.includes(set2[i]))
+    unique.push(set2(i));
+    
+    For i from 0 to unique.length-1
+    sum+=unique[i] 
 END
