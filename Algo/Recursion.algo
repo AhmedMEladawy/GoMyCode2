@@ -1,0 +1,11 @@
+FUNCTION is_palindrome(STRING) : INTEGER;
+VAR
+    set_declarations
+BEGIN
+IF (STRING.lenth)==1 THEN
+    RETURN= true
+ELSE_IF (STRING[0])== STRING[STRING.length-1] THEN
+    (STRING.substrings(1, STRING.length-1))
+ELSE
+    RETURN=false
+END
